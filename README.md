@@ -10,6 +10,7 @@
 ### Структура БД
 - **texts**:
     id_text, text
+- **meta**: id_text, author, topic, year, affilation, contacts
 - **sents**:
     id_text, id_sent, sent
 - **words**:
