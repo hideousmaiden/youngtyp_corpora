@@ -12,7 +12,7 @@
     id_text, text
 - **meta**: id_text, author, topic, year, affilation, contacts, abbr text
 - **links**: id_text, id_link, link
-- **glosses**: id_text, id_gloss, gloss
+- **glosses**: id_text, id_gloss, raw, gloss, translation
 - **sents**:
     id_text, id_sent, sent
 - **words**:
