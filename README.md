@@ -8,9 +8,9 @@
 
 
 ### Структура БД
-- texts
+- **texts**:
     id_text, text
-- sents
+- **sents**:
     id_text, id_sent, sent
-- words
+- **words**:
     id_text, id_sent, id_word, word, lemma, pos
