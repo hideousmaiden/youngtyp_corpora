@@ -21,11 +21,13 @@
 - **texts**:
     id_text, text
 - **meta**: id_text, author, topic, year, affilation
-- **links**: id_text, id_link, link
-- **glosses**: id_text, id_gloss, raw, gloss, translation
 - **sents**:
     id_text, id_sent, sent
 - **words**:
     id_text, id_sent, id_word, word, lemma, pos
+- **words_right**:
+    id_text, id_sent, id_word, word_right, lemma_right, pos_right
+- **words_rright**:
+    id_text, id_sent, id_word, word_rright, lemma_rright, pos_rright
 
 NB: везде нумерация по id вложенная, т.е. *id_sent* и т.п. обнуляется для каждого нового текста
