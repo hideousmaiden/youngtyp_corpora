@@ -6,7 +6,7 @@
 
 > [сайт конференции](https://youngconfspb.com/glavnaya)
 
-> [база с текстами](https://drive.google.com/file/d/1ycftPNH_sweTip1AXRSfF1ZI5OHYI_3L/view?usp=sharing)
+> [база с текстами](https://drive.google.com/file/d/1hXHzqmE_ef4xUWuDMoiZIfqAtedDUBRs/view?usp=sharing)
 
 ### Сбор данных
 По результатам каждой конференции публкуется сборник тезисов в формате .pdf. Мы собрали тесты тезисов и соответствующую им метаинформацию TO DO: КАК
