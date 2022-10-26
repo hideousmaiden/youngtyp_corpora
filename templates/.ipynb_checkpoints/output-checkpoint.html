@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div>
+<img src="static/nlp.gif" alt="" align="middle" style='height:100px;'>
+</div>
+
+{% for output in outputs %}
+<div style="margin: 50px 10%; background-image:url('https://media.giphy.com/media/rcFs59ww1R7yeFszmo/giphy.gif'); background-repeat:repeat;">
+<p><b>"{{output['topic']}}", Автор: {{output['author']}} ({{output['affiliation']}}), {{output['year']}} год</b></p>
+<p>...{{output['left']}} <b style="background-color:#8661A5;color:#FFFFFF">{{output['pattern']}}</b> {{output['right']}}...</p>
+</div>
+{% endfor %}
+
+{% endblock %}

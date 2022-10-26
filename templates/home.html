@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<center>
+
+<div style="margin: 50px 10%">
+<img src="static/search.gif" alt="" align="middle" style='width:500px;'>
+    </div>
+    
+<!-- Load icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The form class="example" action="action_page.php"-->
+<form action="/process" method = 'GET'>
+  <input type="text" placeholder="Искать..." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+    
+    <div>
+    <input
+      type="checkbox"
+      id="order_year"
+      name="order_year"
+      value="yes" />
+    <label for="order_year">Сортировать по году</label>
+    </div>
+    
+</form>
+
+{% endblock %}
