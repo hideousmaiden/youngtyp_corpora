@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div style="margin: 50px 10%; text-align: center">
+    <img src="static/download.gif" alt="" align="middle" style='height:200px;'>
+
+    <p>В нашем корпусе используются POS-тэги <a href="https://universaldependencies.org/treebanks/ru_syntagrus/ru_syntagrus-pos-PART.html">Universal Dependencies</a>, разметка произведена при помощи модели от <a href="">deeppavlov</a>. Список тэгов ниже:</p>
+</div>
+
+    <div class="row" style="margin: 50px 10%">
+   <div class="column" style="width:49%;color:#D9E7E4">
+       <ul>
+       <li> ADJ: прилагательное </li>
+<li> ADP: предлог </li>
+<li> ADV: наречие </li>
+<li> AUX: глагол-связка <i>(бы, был)</i></li>
+<li> CCONJ: сочинительный союз </li>
+<li> DET: указательное местоимение <i>(все, это)</i></li>
+<li> INTJ: междометие </li>
+<li> NOUN: существительное </li>
+<li> NUM: числительное </li> 
+           </ul>
+        </div>
+        
+  <div class="column" style="width: 49%;color:#D9E7E4" >
+       <ul>
+<li> PART: частица <i>(не, уже)</i> </li>
+<li> PRON: местоимение </li>
+<li> PROPN: имя собственное </li>
+<li> PUNCT: пунктуация </li>
+<li> SCONJ: подчинительный союз </li>
+<li> SYM: символ </li>
+<li> VERB: глагол </li>
+<li> X: другое </li>
+</ul>
+</div>
+</div>
+
+<div>
+    <img src="static/title.gif" alt="" align="middle" style='height:150px;'>
+
+    <ul>
+    <li> Для поиска по лемме введите лемму, например: <b>корпус</b></li>
+    <li> Для поиска по точной форме возьмите её в кавычки, например: <b>"помощью"</b></li>
+    <li> Чтобы найти слово по тэгу, введите его большими английскими буквами: <b>NOUN</b> </li>
+    <li> Наш корпус поддерживает поиск по n-граммам из 2 или 3 слов, но не больше. Слова в n-грамме вводите через пробел, например: <b>ADP ADJ, это "анализ", "настоящий" "доклад".</b></li>
+    </ul>
+</div>
+
+{% endblock %}

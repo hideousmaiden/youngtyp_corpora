@@ -12,8 +12,18 @@
 
 <!-- The form class="example" action="action_page.php"-->
 <form action="/process" method = 'GET'>
-  <input type="text" placeholder="Search..." name="search">
+  <input type="text" placeholder="Искать..." name="search">
   <button type="submit"><i class="fa fa-search"></i></button>
+    
+    <div>
+    <input
+      type="checkbox"
+      id="order_year"
+      name="order_year"
+      value="yes" />
+    <label for="order_year">Сортировать по году</label>
+    </div>
+    
 </form>
 
 {% endblock %}
