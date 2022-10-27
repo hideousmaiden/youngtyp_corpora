@@ -10,12 +10,12 @@
 
 ## Навигация по папке
 
-- `static`, `templates`, `website.py` -- файлы, с которыми работает сайт: изображения, HTML-страницы и код на Flask (Саша Шикунова)
-- `requirements.txt` -- библиотеки, нужные для работы сайта
-- `project_nlp_Kozlova.ipynb` -- тетрадка с парсингом и предобработкой PDF (Катя Козлова)
-- `theses.json` -- файл с результатами парсинга PDF
-- `youngtyp.db` -- уменьшенная демонстрационная база данных
-- `youngtyp_corpora_parsing+sql.ipynb` -- тетрадка с разработкой поиска (Даша Сидоркина)
+- [static](/static), [templates](/templates), [website.py](/website.py) — файлы, с которыми работает сайт: изображения, HTML-страницы и код на Flask (Саша Шикунова)
+- [requirements.txt](/requirements.txt) — библиотеки, нужные для работы сайта
+- [youngtyp_corpora_crawling+extracting.ipynb](/youngtyp_corpora_crawling+extracting.ipynb) — тетрадка с парсингом и предобработкой PDF (Катя Козлова)
+- [youngtyp.json](/youngtyp.json) — файл с результатами парсинга PDF
+- [youngtyp.db](/youngtyp.db) — уменьшенная демонстрационная база данных
+- [youngtyp_corpora_parsing+sql.ipynb](/youngtyp_corpora_parsing+sql.ipynb) — тетрадка с разработкой поиска (Даша Сидоркина)
 
 ### Сбор данных
 По результатам каждой конференции публкуется сборник тезисов в формате .pdf. Мы собрали тесты тезисов и соответствующую им метаинформацию TO DO: КАК
