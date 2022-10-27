@@ -3,26 +3,22 @@
 
 Это корпус, собранный из тезисов на Конференцию по типологии и грамматике для молодых исследователей, которая проводится в Санкт-Петербурге и также известна просто как Молодые типологи.
 
-> [корпус](http://thnlgrlivrlvdwsbrnwthrssnhrys.pythonanywhere.com/)
-
-> [сайт конференции](https://youngconfspb.com/glavnaya)
-
-> [база с текстами](https://drive.google.com/file/d/1hXHzqmE_ef4xUWuDMoiZIfqAtedDUBRs/view?usp=sharing)
+> [корпус](http://thnlgrlivrlvdwsbrnwthrssnhrys.pythonanywhere.com/)<br>[сайт конференции](https://youngconfspb.com/glavnaya)<br>[база с текстами](https://drive.google.com/file/d/1hXHzqmE_ef4xUWuDMoiZIfqAtedDUBRs/view?usp=sharing)
 
 ## Навигация по папке
 
-- [static](/static), [templates](/templates), [website.py](/website.py) — файлы, с которыми работает сайт: изображения, HTML-страницы и код на Flask (Саша Шикунова)
-- [requirements.txt](/requirements.txt) — библиотеки, нужные для работы сайта
-- [youngtyp_corpora_crawling+extracting.ipynb](/youngtyp_corpora_crawling+extracting.ipynb) — тетрадка с парсингом и предобработкой PDF (Катя Козлова)
-- [youngtyp.json](/youngtyp.json) — файл с результатами парсинга PDF
-- [youngtyp.db](/youngtyp.db) — уменьшенная демонстрационная база данных
-- [youngtyp_corpora_parsing+sql.ipynb](/youngtyp_corpora_parsing+sql.ipynb) — тетрадка с разработкой поиска (Даша Сидоркина)
+- [`static`](/static), [`templates`](/templates), [`website.py`](/website.py) — файлы, с которыми работает сайт: изображения, HTML-страницы и код на Flask (Саша Шикунова)
+- [`requirements.txt`](/requirements.txt) — библиотеки, нужные для работы сайта
+- [`youngtyp_corpora_crawling+extracting.ipynb`](/youngtyp_corpora_crawling+extracting.ipynb) — тетрадка с парсингом и предобработкой PDF (Катя Козлова)
+- [`youngtyp.json`](/youngtyp.json) — файл с результатами парсинга PDF
+- [`youngtyp.db`](/youngtyp.db) — уменьшенная демонстрационная база данных
+- [`youngtyp_corpora_parsing+sql.ipynb`](/youngtyp_corpora_parsing+sql.ipynb) — тетрадка с разработкой поиска (Даша Сидоркина)
 
 ### Сбор данных
-По результатам каждой конференции публкуется сборник тезисов в формате .pdf. Мы собрали тесты тезисов и соответствующую им метаинформацию TO DO: КАК
+По результатам каждой конференции публкуется сборник тезисов в формате `.pdf`. Мы краулерили машиночитаемые тезисники с [сайта конференции](https://youngconfspb.com/glavnaya) и извлекали текст при помощи [`pdfplumber`](https://github.com/jsvine/pdfplumber). Потом чистили, делили сборники на отдельные тезисы, а также собирали соответствующую им метаинформацию (*год конференции*, *автор_ы*, *аффилиация/и*, *название*). Первичная предобработка осуществлялась при помощи regexp, повторяющихся частей и здравого смысла, а потом данные чистились вручную.
 
 ### Парсинг
-Частеречную разметку мы сделали [моделью](http://docs.deeppavlov.ai/en/master/features/models/morphotagger.html) от ***deepavlov***, а лемматизацию - при помощи pymorpy2.
+Частеречную разметку мы сделали [моделью](http://docs.deeppavlov.ai/en/master/features/models/morphotagger.html) от ***deepavlov***, а лемматизацию - при помощи ***pymorpy2***.
 Размеченные тексты хранятся в базе данных SQLAlchemy.
 
 ### Поиск
