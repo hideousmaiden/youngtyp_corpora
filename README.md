@@ -7,12 +7,16 @@
 
 ## Навигация по папке
 
-:pushpin: [`static`](/static), [`templates`](/templates), [`website.py`](/website.py) — файлы, с которыми работает сайт: изображения, HTML-страницы и код на Flask (Саша Шикунова)<br>
+:pushpin: [`static`](/static), [`templates`](/templates), [`website.py`](/website.py) — файлы, с которыми работает сайт: изображения, HTML-страницы и код на Flask[^1]<br>
 :pushpin: [`requirements.txt`](/requirements.txt) — библиотеки, нужные для работы сайта<br>
-:pushpin: [`youngtyp_corpora_crawling+extracting.ipynb`](/youngtyp_corpora_crawling+extracting.ipynb) — тетрадка с парсингом и предобработкой PDF (Катя Козлова)<br>
-:pushpin: [`youngtyp.json`](/youngtyp.json) — файл с результатами парсинга PDF<br>
+:pushpin: [`youngtyp_corpora_crawling+extracting.ipynb`](/youngtyp_corpora_crawling+extracting.ipynb) — тетрадка с парсингом и предобработкой PDF-файлов[^2]<br>
+:pushpin: [`youngtyp.json`](/youngtyp.json) — файл с результатами парсинга PDF-файлов<br>
 :pushpin: [`youngtyp.db`](/youngtyp.db) — уменьшенная демонстрационная база данных<br>
-:pushpin: [`youngtyp_corpora_parsing+sql.ipynb`](/youngtyp_corpora_parsing+sql.ipynb) — тетрадка с разработкой поиска (Даша Сидоркина)
+:pushpin: [`youngtyp_corpora_parsing+sql.ipynb`](/youngtyp_corpora_parsing+sql.ipynb) — тетрадка с разработкой поиска[^3]
+
+[^1]: by Саша Шикунова
+[^2]: by Катя Козлова
+[^3]: by Даша Сидоркина
 
 ## Этапы работы
 ### Сбор данных
