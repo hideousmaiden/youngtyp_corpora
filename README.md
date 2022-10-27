@@ -3,7 +3,7 @@
 
 Это корпус, собранный из тезисов на *Конференцию по типологии и грамматике для молодых исследователей*, которая проводится в Санкт-Петербурге и также известна просто как *Молодые типологи*.
 
-> [корпус](http://thnlgrlivrlvdwsbrnwthrssnhrys.pythonanywhere.com/)<br>[сайт конференции](https://youngconfspb.com/glavnaya)<br>[база с текстами](https://drive.google.com/file/d/1hXHzqmE_ef4xUWuDMoiZIfqAtedDUBRs/view?usp=sharing)
+> [Онлайн-корпус](http://thnlgrlivrlvdwsbrnwthrssnhrys.pythonanywhere.com/)<br>[База с текстами](https://drive.google.com/file/d/1hXHzqmE_ef4xUWuDMoiZIfqAtedDUBRs/view?usp=sharing)
 
 ## Навигация по папке
 
