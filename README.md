@@ -1,5 +1,6 @@
 # youngtyp_corpora
 
+
 Это корпус, собранный из тезисов на Конференцию по типологии и грамматике для молодых исследователей, которая проводится в Санкт-Петербурге и также известна просто как Молодые типологи.
 
 > [корпус](http://thnlgrlivrlvdwsbrnwthrssnhrys.pythonanywhere.com/)
@@ -38,3 +39,5 @@
     id_text, id_sent, id_word, word, lemma, pos, word_right, lemma_right, pos_right, word_rright, lemma_rright, pos_rright
 
 NB: везде нумерация по id вложенная, т.е. *id_sent* и т.п. обнуляется для каждого нового текста
+
+#### *Саша Шикунова, Даша Сидоркина, Катя Козлова*
