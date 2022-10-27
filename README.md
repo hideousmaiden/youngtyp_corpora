@@ -27,13 +27,14 @@
 
 
 ### Структура БД
-- **texts**:
-    id_text, text
-- **meta**: id_text, author, topic, year, affilation
-- **sents**:
-    id_text, id_sent, sent
-- **words**:
-    id_text, id_sent, id_word, word, lemma, pos, word_right, lemma_right, pos_right, word_rright, lemma_rright, pos_rright
+- **texts**:<br>
+        *id_text, text*
+- **meta**:<br>
+        *id_text, author, topic, year, affilation*
+- **sents**:<br>
+        *id_text, id_sent, sent*
+- **words**:<br>
+        *id_text, id_sent, id_word, word, lemma, pos, word_right, lemma_right, pos_right, word_rright, lemma_rright, pos_rright*
 
 **NB!** нумерация по id везде вложенная, т.е. *id_sent* и т.п. обнуляется для каждого нового текста
 
